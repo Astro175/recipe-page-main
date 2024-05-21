@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggShell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+  }
+
+
+body {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+}
+.card h1 {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--eggShell);
+    display: flex;
+    padding: 50px;
+}
+
+.card {
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 560px;
+}
+
+
+
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: var(--nutmeg);
+    font-family: "Young Serif", serif;
+    font-size: 24px;
+}
+
+/* PREP TIME STYLING */
+.prep-time {
+    background-color: var(--roseWhite);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prep-time h4 {
+    color: var(--darkRaspberry)
+}
+
+/* Ingredients section */
+
+.ingredients-section {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--LightGrey);
+}
+
+.table-card {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--LightGrey);
+}
+
+#last-child {
+    border: none
+}
